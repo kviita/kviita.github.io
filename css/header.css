@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  z-index: 2024;
+
+  padding-left: 4vw;
+  padding-right: 4vw;
+
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+
+  .logo {
+    width: 100px;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  nav {
+    display: flex;
+    gap: 2rem;
+    
+
+    a {
+      color: #fff;
+      border-bottom: 1px solid transparent;
+      font-size: 18px;
+
+      &:hover {
+        border-color: #fff;
+      }
+    }
+  }
+}
